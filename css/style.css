@@ -1,0 +1,80 @@
+/* stylelint-disable-next-line no-missing-end-of-source-newline */
+body {
+   height: 3050px;
+}
+
+h1 {
+   color: rgb(251, 30, 30);
+   text-align: center;
+   padding: 20px;
+   font-size: 100px;
+   margin-left: -600px;
+   font-family: Creepster, cursive;
+}
+
+.one {
+   padding: 20px;
+   line-height: 26pt;
+   color: rgb(255, 255, 255);
+   margin-left: 939px;
+   font-size: 16px;
+   text-align: justify;
+   font-family: 'Gloria Hallelujah', cursive;
+   margin-top: -120px;
+}
+
+/*html,
+body,
+div {
+   margin: 0;
+   padding: 0;
+}*/
+
+/*span {
+   background-color: rgba(14, 25, 34, .8);
+   color: white;
+   text-align: center;
+   padding: 20px;
+   font-size: 32px;
+}*/
+
+.pageone {
+   background-image: url('../img/rock.png');
+   background-position: left top;
+   margin-left: -80px;
+   background-size: 1000px;
+   background-repeat: no-repeat;
+}
+
+.pagetwo {
+   justify-content: center;
+   row-gap: 200px;
+   align-content: center;
+   display: flex;
+   flex-direction: row;
+}
+
+/*.pageone {
+   background-image: url('../img/rameee.png');
+   background-position: left bottom;
+   margin-left: -80px;
+   background-size: 1000px;
+   background-repeat: no-repeat;
+}*/
+
+html {
+   background: linear-gradient(to right, rgb(10, 22, 32), rgba(157, 157, 157)) 0 0 / cover;
+   scroll-behavior: smooth;
+}
+
+li {
+   margin-bottom: 30px;
+   font-size: 16px;
+   font-family: 'Gloria Hallelujah', cursive;
+   color: rgb(255, 255, 255);
+   padding: 1px;
+   text-align: center;
+}
+/*div {
+   background: linear-gradient(to right, rgb(30, 75, 115, 1), rgba(225, 225, 225, 1)) 0 0 / cover, url('../img/rame.png') no-repeat left center / cover, transparetn;
+}*/
