@@ -1,6 +1,7 @@
-/* stylelint-disable-next-line no-missing-end-of-source-newline */
+/* stylelint-disable-next-line unit-blacklist */
+
 body {
-   height: 3050px;
+   height: 3080px;
 }
 
 h1 {
@@ -54,6 +55,14 @@ div {
    flex-direction: row;
 }
 
+.pagethree {
+   color: rgb(251, 30, 30);
+   text-align: center;
+   font-family: 'Gloria Hallelujah', cursive;
+   padding: 180px;
+   font-size: 36px;
+}
+
 /*.pageone {
    background-image: url('../img/rameee.png');
    background-position: left bottom;
@@ -75,6 +84,15 @@ li {
    padding: 1px;
    text-align: center;
 }
+
+.rami {
+   width: 850px;
+   height: 800px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 /*div {
    background: linear-gradient(to right, rgb(30, 75, 115, 1), rgba(225, 225, 225, 1)) 0 0 / cover, url('../img/rame.png') no-repeat left center / cover, transparetn;
 }*/
