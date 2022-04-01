@@ -24,21 +24,6 @@ h1 {
    margin-top: -120px;
 }
 
-/*html,
-body,
-div {
-   margin: 0;
-   padding: 0;
-}*/
-
-/*span {
-   background-color: rgba(14, 25, 34, .8);
-   color: white;
-   text-align: center;
-   padding: 20px;
-   font-size: 32px;
-}*/
-
 .pageone {
    background-image: url('../img/rock.png');
    background-position: left top;
@@ -63,14 +48,6 @@ div {
    font-size: 36px;
 }
 
-/*.pageone {
-   background-image: url('../img/rameee.png');
-   background-position: left bottom;
-   margin-left: -80px;
-   background-size: 1000px;
-   background-repeat: no-repeat;
-}*/
-
 html {
    background: linear-gradient(to right, rgb(10, 22, 32), rgba(157, 157, 157)) 0 0 / cover;
    scroll-behavior: smooth;
@@ -92,7 +69,3 @@ li {
    margin-left: auto;
    margin-right: auto;
 }
-
-/*div {
-   background: linear-gradient(to right, rgb(30, 75, 115, 1), rgba(225, 225, 225, 1)) 0 0 / cover, url('../img/rame.png') no-repeat left center / cover, transparetn;
-}*/
