@@ -1,7 +1,7 @@
 /* stylelint-disable-next-line unit-blacklist */
 
 body {
-   height: 3080px;
+   height: 3000px;
 }
 
 h1 {
@@ -9,8 +9,9 @@ h1 {
    text-align: center;
    padding: 20px;
    font-size: 100px;
-   margin-left: -600px;
    font-family: Creepster, cursive;
+   border: rgb(226, 26, 26);
+   box-shadow: 0 0 40px rgb(226, 26, 26);
 }
 
 .one {
@@ -21,15 +22,15 @@ h1 {
    font-size: 16px;
    text-align: justify;
    font-family: 'Gloria Hallelujah', cursive;
-   margin-top: -120px;
+   margin-top: -1085px;
 }
 
 .pageone {
-   background-image: url('../img/rock.png');
-   background-position: left top;
-   margin-left: -80px;
-   background-size: 1000px;
-   background-repeat: no-repeat;
+   width: 1125px;
+   height: 1125px;
+   position: relative;
+   left: -148px;
+   margin-top: -10px;
 }
 
 .pagetwo {
@@ -41,15 +42,24 @@ h1 {
 }
 
 .pagethree {
-   color: rgb(251, 30, 30);
+   color: rgb(251, 60, 60);
    text-align: center;
-   font-family: 'Gloria Hallelujah', cursive;
-   padding: 180px;
+   font-family: Creepster, cursive;
+   padding: 90px;
+   font-size: 36px;
+}
+
+.pagefoure {
+   color: rgb(251, 60, 60);
+   text-align: center;
+   font-family: Creepster, cursive;
+   display: block;
+   padding: 20px;
    font-size: 36px;
 }
 
 html {
-   background: linear-gradient(to right, rgb(10, 22, 32), rgba(157, 157, 157)) 0 0 / cover;
+   background: linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
    scroll-behavior: smooth;
 }
 
@@ -65,7 +75,7 @@ li {
 .rami {
    width: 850px;
    height: 800px;
-   display: block;
    margin-left: auto;
    margin-right: auto;
+   display: flex;
 }
