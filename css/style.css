@@ -79,3 +79,18 @@ li {
    margin-right: auto;
    display: flex;
 }
+
+.copyright {
+   color: white;
+   font-size: 13px;
+}
+
+.copy {
+   color: white;
+   font-size: 13px;
+}
+
+.right {
+   color: white;
+   font-size: 13px;
+}
