@@ -1,7 +1,7 @@
 /* stylelint-disable-next-line unit-blacklist */
 
 body {
-   height: 3000px;
+   height: 210vw;
    margin: auto;
 }
 
@@ -9,7 +9,7 @@ h1 {
    color: rgb(251, 30, 30);
    text-align: center;
    padding: 20px;
-   font-size: 100px;
+   font-size: 10vw;
    font-family: Creepster, cursive;
    border: rgb(226, 26, 26);
    box-shadow: 0 0 55px rgb(226, 26, 26);
@@ -19,19 +19,18 @@ h1 {
    padding: 20px;
    line-height: 26pt;
    color: rgb(255, 255, 255);
-   margin-left: 939px;
    font-size: 16px;
    text-align: justify;
    font-family: 'Gloria Hallelujah', cursive;
-   margin-top: -1085px;
 }
 
 .pageone {
    width: 1125px;
    height: 1125px;
-   position: relative;
-   left: -148px;
-   margin-top: -10px;
+   text-align: center;
+   justify-content: center;
+   margin: auto;
+   display: block;
 }
 
 .pagetwo {
@@ -61,7 +60,6 @@ h1 {
 
 html {
    background: linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
-   scroll-behavior: smooth;
    margin: auto;
 }
 
