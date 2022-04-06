@@ -1,7 +1,6 @@
 /* stylelint-disable-next-line unit-blacklist */
 
 body {
-   height: 210vw;
    margin: auto;
 }
 
@@ -60,6 +59,7 @@ h1 {
 
 html {
    background: linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
+   background-color: rgb(53, 52, 52);
    margin: auto;
 }
 
@@ -73,8 +73,8 @@ li {
 }
 
 .rami {
-   width: 850px;
-   height: 800px;
+   width: 990px;
+   height: 900px;
    margin-left: auto;
    margin-right: auto;
    display: flex;
