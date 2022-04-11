@@ -1,5 +1,11 @@
 /* stylelint-disable-next-line unit-blacklist */
 
+html {
+   background: linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
+   background-color: rgb(53, 52, 52);
+   margin: auto;
+}
+
 body {
    margin: auto;
 }
@@ -8,10 +14,19 @@ h1 {
    color: rgb(251, 30, 30);
    text-align: center;
    padding: 20px;
-   font-size: 9vw;
-   font-family: Creepster, cursive;
+   font-size: 100px;
+   font-family: Creepster, cursive, sans-serif;
    border: rgb(226, 26, 26);
    box-shadow: 0 0 55px rgb(226, 26, 26);
+}
+
+li {
+   margin-bottom: 30px;
+   font-size: 16px;
+   font-family: 'Gloria Hallelujah', cursive, sans-serif;
+   color: rgb(255, 255, 255);
+   padding: 1px;
+   text-align: center;
 }
 
 .one {
@@ -20,69 +35,15 @@ h1 {
    color: rgb(255, 255, 255);
    font-size: 16px;
    text-align: justify;
-   font-family: 'Gloria Hallelujah', cursive;
+   font-family: 'Gloria Hallelujah', cursive, sans-serif;
 }
 
-.pageone {
+.page-one {
    width: 1125px;
    height: 1125px;
    text-align: center;
-   justify-content: center;
    margin: auto;
    display: block;
-}
-
-.pagetwo {
-   justify-content: center;
-   row-gap: 200px;
-   align-content: center;
-   display: flex;
-   flex-direction: row;
-}
-
-.pagethree {
-   color: rgb(251, 60, 60);
-   text-align: center;
-   font-family: Creepster, cursive;
-   padding: 90px;
-   font-size: 36px;
-}
-
-.pagefoure {
-   color: rgb(251, 60, 60);
-   text-align: center;
-   font-family: Creepster, cursive;
-   display: block;
-   padding: 20px;
-   font-size: 36px;
-}
-
-html {
-   background: linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
-   background-color: rgb(53, 52, 52);
-   margin: auto;
-}
-
-li {
-   margin-bottom: 30px;
-   font-size: 16px;
-   font-family: 'Gloria Hallelujah', cursive;
-   color: rgb(255, 255, 255);
-   padding: 1px;
-   text-align: center;
-}
-
-.rami {
-   width: 990px;
-   height: 900px;
-   margin-left: auto;
-   margin-right: auto;
-   display: flex;
-}
-
-.copyright {
-   color: white;
-   font-size: 13px;
 }
 
 .copy {
@@ -90,7 +51,44 @@ li {
    font-size: 13px;
 }
 
+.page-two {
+   justify-content: center;
+   row-gap: 200px;
+   align-content: center;
+   flex-direction: row;
+   display: flex;
+}
+
 .right {
+   color: white;
+   font-size: 13px;
+}
+
+.page-three {
+   color: rgb(251, 60, 60);
+   text-align: center;
+   font-family: Creepster, cursive, sans-serif;
+   padding: 90px;
+   font-size: 36px;
+}
+
+.page-foure {
+   color: rgb(251, 60, 60);
+   text-align: center;
+   font-family: Creepster, cursive, sans-serif;
+   display: block;
+   padding: 20px;
+   font-size: 36px;
+}
+
+.rami {
+   width: 990px;
+   height: 900px;
+   margin: auto;
+   display: flex;
+}
+
+.copy-right {
    color: white;
    font-size: 13px;
 }
