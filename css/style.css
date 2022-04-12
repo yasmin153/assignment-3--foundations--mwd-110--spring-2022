@@ -18,7 +18,7 @@ h1 {
 
 li {
    margin-bottom: 30px;
-   font-size: 16px;
+   font-size: 18px;
    font-family: 'Gloria Hallelujah', cursive, serif;
    color: rgb(255, 255, 255);
    padding: 1px;
@@ -29,7 +29,7 @@ li {
    padding: 20px;
    line-height: 26px;
    color: rgb(255, 255, 255);
-   font-size: 16px;
+   font-size: 18px;
    text-align: justify;
    font-family: 'Gloria Hallelujah', cursive, serif;
 }
@@ -65,7 +65,7 @@ li {
    text-align: center;
    font-family: Creepster, cursive, serif;
    padding: 90px;
-   font-size: 36px;
+   font-size: 40px;
 }
 
 .page-foure {
@@ -74,7 +74,7 @@ li {
    font-family: Creepster, cursive, serif;
    display: block;
    padding: 20px;
-   font-size: 36px;
+   font-size: 40px;
 }
 
 .rami {
@@ -82,6 +82,8 @@ li {
    height: 900px;
    margin: auto;
    display: flex;
+   box-shadow: 0 0 55px rgb(226, 26, 26);
+   border: 2px solid rgb(0, 0, 0);
 }
 
 .copy-right {
