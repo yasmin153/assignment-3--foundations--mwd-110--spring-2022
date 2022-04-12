@@ -1,6 +1,5 @@
 html {
    background: rgb(53, 52, 52) linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
-   margin: auto;
 }
 
 body {
@@ -12,7 +11,7 @@ h1 {
    text-align: center;
    padding: 20px;
    font-size: 100px;
-   font-family: Creepster, cursive, sans-serif;
+   font-family: Creepster, cursive, serif;
    border: rgb(226, 26, 26);
    box-shadow: 0 0 55px rgb(226, 26, 26);
 }
@@ -20,7 +19,7 @@ h1 {
 li {
    margin-bottom: 30px;
    font-size: 16px;
-   font-family: 'Gloria Hallelujah', cursive, sans-serif;
+   font-family: 'Gloria Hallelujah', cursive, serif;
    color: rgb(255, 255, 255);
    padding: 1px;
    text-align: center;
@@ -32,7 +31,7 @@ li {
    color: rgb(255, 255, 255);
    font-size: 16px;
    text-align: justify;
-   font-family: 'Gloria Hallelujah', cursive, sans-serif;
+   font-family: 'Gloria Hallelujah', cursive, serif;
 }
 
 .page-one {
@@ -64,7 +63,7 @@ li {
 .page-three {
    color: rgb(251, 60, 60);
    text-align: center;
-   font-family: Creepster, cursive, sans-serif;
+   font-family: Creepster, cursive, serif;
    padding: 90px;
    font-size: 36px;
 }
@@ -72,7 +71,7 @@ li {
 .page-foure {
    color: rgb(251, 60, 60);
    text-align: center;
-   font-family: Creepster, cursive, sans-serif;
+   font-family: Creepster, cursive, serif;
    display: block;
    padding: 20px;
    font-size: 36px;
