@@ -37,7 +37,6 @@ li {
 .page-one {
    width: 1125px;
    height: 1125px;
-   text-align: center;
    margin: auto;
    display: block;
 }
@@ -81,7 +80,7 @@ li {
    width: 990px;
    height: 900px;
    margin: auto;
-   display: flex;
+   display: block;
    box-shadow: 0 0 55px rgb(226, 26, 26);
    border: 2px solid rgb(0, 0, 0);
 }
