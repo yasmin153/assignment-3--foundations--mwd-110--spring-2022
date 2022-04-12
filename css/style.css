@@ -1,8 +1,5 @@
-/* stylelint-disable-next-line unit-blacklist */
-
 html {
-   background: linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
-   background-color: rgb(53, 52, 52);
+   background: rgb(53, 52, 52) linear-gradient(to right, rgb(67, 9, 9), rgb(0, 0, 0)) 0 0 / cover;
    margin: auto;
 }
 
@@ -31,7 +28,7 @@ li {
 
 .one {
    padding: 20px;
-   line-height: 26pt;
+   line-height: 26px;
    color: rgb(255, 255, 255);
    font-size: 16px;
    text-align: justify;
