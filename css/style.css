@@ -43,12 +43,10 @@ li {
 
 .copy {
    color: white;
-   font-size: 13px;
 }
 
 .page-two {
    justify-content: center;
-   row-gap: 200px;
    align-content: center;
    flex-direction: row;
    display: flex;
@@ -56,7 +54,6 @@ li {
 
 .right {
    color: white;
-   font-size: 13px;
 }
 
 .page-three {
@@ -87,5 +84,4 @@ li {
 
 .copy-right {
    color: white;
-   font-size: 13px;
 }
